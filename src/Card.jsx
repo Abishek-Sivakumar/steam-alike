@@ -1,5 +1,4 @@
 import React from "react"
-import like from "src\assets\like.png"
 
 export default function Card(props){
     let tagText
