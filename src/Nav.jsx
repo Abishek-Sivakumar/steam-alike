@@ -1,9 +1,10 @@
 import React from "react"
+import steamLogo from "public\images\steam3.png"
 
 export default function Nav(){
     return (
         <nav>
-            <img src="src\assets\steam3.png" className="nav-logo" alt="Steam Logo"/>
+            <img src={steamLogo} className="nav-logo" alt="Steam Logo"/>
             <p className="nav-text">STEAM</p>
         </nav>
     )
