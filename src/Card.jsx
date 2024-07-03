@@ -10,9 +10,9 @@ export default function Card(props){
     return (
         <div className="game-div">
             {tagText && <div className="tagDiv">{tagText}</div>}
-            <img className="game-pic" src={`./public/assets/${props.item.imgSrc}`}/>
+            <img className="game-pic" src={`/public/assets/${props.item.imgSrc}`}/>
             <div className="game-stats">
-               <img className="like-pic" src={`./public/assets/like.png`}/>
+               <img className="like-pic" src={`/public/assets/like.png`}/>
                <p className="rating-mode">{props.item.stats.rating}({props.item.stats.reviewCount})/{props.item.stats.mode}</p>
             </div>
             <p className="game-name"><strong>{props.item.name}</strong></p>
