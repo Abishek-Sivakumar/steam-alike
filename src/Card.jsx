@@ -1,6 +1,7 @@
 import React from "react"
 import like from "/public/images/assets/like.png"
-import godOfWar from "/public/images/assets/like.png"
+import godOfWar from "/public/images/assets/god.png"
+
 export default function Card(props){
     let tagText
     if(props.item.stats.rating=="5"){
