@@ -1,5 +1,6 @@
 import React from "react"
-import heroPicture from  "public\images\hero-pic.png"
+import heroPicture from  "public\images\assets\hero-pic.png"
+
 export default function Hero(){
     return (
         <section className="hero-section">
