@@ -12,7 +12,7 @@ export default function Card(props){
             {tagText && <div className="tagDiv">{tagText}</div>}
             <img className="game-pic" src={`src/assets/${props.item.imgSrc}`}/>
             <div className="game-stats">
-               <img className="like-pic" src={like}/>
+               <img className="like-pic" src={`public\assets\like.png`}/>
                <p className="rating-mode">{props.item.stats.rating}({props.item.stats.reviewCount})/{props.item.stats.mode}</p>
             </div>
             <p className="game-name"><strong>{props.item.name}</strong></p>
