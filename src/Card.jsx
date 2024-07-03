@@ -1,5 +1,5 @@
 import React from "react"
-
+import sample from "/public/images/assets/eldenring.png"
 export default function Card(props){
     let tagText
     if(props.item.stats.rating=="5"){
@@ -10,7 +10,7 @@ export default function Card(props){
     return (
         <div className="game-div">
             {tagText && <div className="tagDiv">{tagText}</div>}
-            <img className="game-pic" src={`/public/assets/${props.item.imgSrc}`}/>
+            <img className="game-pic" src={sample}/>
             <div className="game-stats">
                <img className="like-pic" src={`public\images\like.png`}/>
                <p className="rating-mode">{props.item.stats.rating}({props.item.stats.reviewCount})/{props.item.stats.mode}</p>

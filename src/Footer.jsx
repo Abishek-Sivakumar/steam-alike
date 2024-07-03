@@ -1,5 +1,5 @@
 import React from "react"
-import copyright from "public\images\assets\copyright.png"
+import copyright from "/public/images/assets/copyright.png"
 export default function Footer(){
     return (
         <div className="footerDiv">

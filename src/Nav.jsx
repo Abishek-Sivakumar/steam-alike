@@ -1,5 +1,5 @@
 import React from "react"
-import steamLogo from "public\images\assets\steam3.png"
+import steamLogo from "/public/images/assets/steam3.png"
 
 export default function Nav(){
     return (
