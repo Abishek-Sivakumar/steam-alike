@@ -112,8 +112,4 @@ export default [
         type:"Souls-like"
         
     }
-
-
-
-
 ]
